@@ -14,9 +14,9 @@ n=int(input("Enter no.of messages to be sent : "))
 
 t=int(input("Enter delay time : "))
 
-pw.sendwhatmsg(phone,'hello',h,m)           # Open whatsapp web and set courser at require  contact page 
+pw.sendwhatmsg(phone,'hello',h,m)           # Open whatsapp web and set cursor at require  contact page 
 
-a=["Hello","Hi","Hay","Good Morning","Good Night","Good Evening","Good Afternoon"]
+a=["Hello","Hi","Hey","Good Morning","Good Night","Good Evening","Good Afternoon"]
 # list of messages
 
 c = len(a)-1
