@@ -4,9 +4,9 @@ import pywhatkit as pw
 import datetime
 import random
 
-c_time= datetime.datetime.now()                 # store plesent time in a variable 
+c_time= datetime.datetime.now()                 # store present time in a variable 
 h = c_time.hour
-m = c_time.minute+2                             # set minuts to present time + 2
+m = c_time.minute+2                             # set minute to present time + 2
 
 phone= '+91'+(input("Enter phone number to send message : "))       # phone number input
 
