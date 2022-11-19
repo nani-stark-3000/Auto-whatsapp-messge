@@ -15,9 +15,7 @@ def index_home():
         n = request.form.get('count')
         t = request.form.get('delay')
         pw.sendwhatmsg(phone,'hello',h,m)           
-
         a=["Hello","Hi","Hey","Good Morning","Good Night","Good Evening","Good Afternoon"]
-
         c = len(a)-1
         for i in range(n):
             b = random.randint(0,c)         # Selecting a random index in list
