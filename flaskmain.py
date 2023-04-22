@@ -5,7 +5,7 @@ import pywhatkit as pw
 import datetime
 import random
 app = Flask(__name__)
-@app.route('/vd', methods=['POST','GET'])
+@app.route('/', methods=['POST','GET'])
 def index_home():
     if request.method==["POST","GET"]:
         c_time= datetime.datetime.now()             
@@ -23,4 +23,4 @@ def index_home():
             time.sleep(t)
             pg.press("enter")
     return render_template('new.html')
-app.run(debug=True,port=47)
+app.run(debug=True,port=34)
